@@ -88,6 +88,15 @@ button:hover {
   border: 2px solid #dc7f5f;
   border-radius: 10px;
   margin: 20px 0;
+  text-align: center;
+}
+
+#certificateContent img{
+  max-width: 60%;
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto; /* Optional: Add some space around the image */
+  padding: 10px;
 }
 
 h1, .modal-content h2, .modal-content p {
